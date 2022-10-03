@@ -37,6 +37,12 @@ form {
       }
 h3{
     color: rgb(214, 206, 206);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.884);
     text-shadow: 2px 2px 5px #a649bd;
+}
+@media (max-width:500px){
+  .form{
+    width: 100%;
+
+  }
 }

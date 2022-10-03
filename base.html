@@ -12,15 +12,42 @@
         }
         </style>
 </head>
+    
 <body> <form>
-    <div class="form"><h2>Base64</h2>
-    <a href="index.html">Voltar para principal</a><p></p>
-     <textarea rows="10">Digite aqui seu texto...</textarea><p></p>
-     <input type="submit" value="Codificar">
-     <input type="submit" value="Descodificar"><p></p>
-     <textarea rows="10">Digite aqui seu texto...</textarea>
+   <a href="index.html">Voltar para principal</a><p></p>
+
+    <div class id="form mensagens"><h2>Base64</h2>
+    <input 
+    type="text"
+    class="mensagemEnviada64"
+    placeholder="Digite sua Mensagem..."
+    required
+    onkeydown="validandoPasso()"/>
+
+    <textarea 
+    name="textoConvertido"
+    id="resultado64"
+    placeholder="Resultado"></textarea>
+    <div class="botao">
+      <form>
+          <input
+           type="radio"
+           id="criptografar"
+           name="escolha"
+           checked="checked"
+           value="criptografar"
+          /> Criptografar
+          <br><input
+           type="radio"
+           id="descriptografar"
+           name="escolha"
+           value="descriptografar"
+          /> Descriptografar
+      </form>
+      </div>
+
     </form>
 </div>
-<script src="scripts/script.js"></script>
+<script src="scripts/base.js"></script>
 </body>
 </html>
