@@ -1,0 +1,42 @@
+h1, h2{
+    text-align: center;
+    color: aquamarine;
+}
+form{
+    text-align: center;
+}
+button{
+    border: 0ch;
+}
+form {
+    background-color:hsla(9, 100%, 64%, 0,5);
+    width: 400px;
+    height: 500px;
+    border: 10px solid rgb(128, 0, 122);
+    border-style: ridge;
+    border-style:outset;
+    outline-style: inset;
+    padding: 50px;
+    margin: 20px; 
+    position: fixed;
+    bottom: 0;
+    right: 35%;
+    width: 300px;
+  }
+    a:link, a:visited {
+        background-color: #a649bd;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: aquamarine;
+      }
+h3{
+    color: rgb(214, 206, 206);
+    background-color: black;
+    text-shadow: 2px 2px 5px #a649bd;
+}
